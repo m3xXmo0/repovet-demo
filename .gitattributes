@@ -1,0 +1,4 @@
+# Text files are stored and checked out with LF line endings.
+* text eol=lf
+# The disguised binary must never be converted.
+*.png binary

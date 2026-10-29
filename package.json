@@ -1,0 +1,31 @@
+{
+  "name": "quicknote",
+  "version": "0.3.1",
+  "description": "A tiny command-line note taker that saves notes as plain Markdown files.",
+  "license": "MIT",
+  "author": "m3xXmo0",
+  "bin": {
+    "quicknote": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "postinstall": "echo \"quicknote installed - run 'quicknote --help' to get started\""
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "chokidar": "^3.6.0"
+  },
+  "peerDependencies": {
+    "expresz": "^4.19.2"
+  },
+  "peerDependenciesMeta": {
+    "expresz": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

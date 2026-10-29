@@ -1,0 +1,3 @@
+# Dependencies for the optional Python sync helper in pyhelper/.
+watchdog==4.0.1
+rich==13.7.1
